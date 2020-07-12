@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Spin-off of "Challenge: Seasonal ids"</title>
+    <style>
+      div {
+        width: 80%;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+
+        color: white;
+        background-color: blue;
+        border: 5px solid grey;
+        display: block;
+      }
+
+      h1 {
+        clear: both;
+      }
+
+     
+     .container1,
+      .container2 {
+        width: 48%;
+        height: auto;
+        float: left;
+      }
+
+      .numbers-container {
+        width: 80%;
+        margin: auto;
+        float: none;
+        background-color: rgb(227, 218, 227);
+        display:flex;
+        padding:5px;
+      }
+
+      .numbers-container > ul {
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        padding: 5px;
+      }
+
+      .numbers-container > ul > li {
+        float: left;
+        color: white;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+      .numbers-container > ul > li > strong {
+        padding:5px 10px;
+        border: 2px solid;
+      }
+
+      .container2 {
+        float: right;
+        background-color: rgb(159, 180, 235);
+      }
+
+      .dad-phone {
+        background-color: rgb(201, 198, 32);
+      }
+      #mum-phone {
+        background-color: rgb(240, 105, 148);
+      }
+      #asher-phone {
+        background-color: rgb(214, 180, 28);
+      }
+      
+      #asher-phone > .numbers-container  {
+          background-color: rgb(122, 57, 122);
+          border-color: rgb(102, 36, 102);
+      }
+       
+       #asher-phone > .numbers-container > ul > li > strong {
+      background-color:rgb(186, 89, 48);
+          border-color: rgb(217, 149, 60);
+          color:rgb(208, 252, 13);
+      }
+      
+      #tasia-phone {
+        background-color:rgb(25, 227, 166);
+      }
+      
+       #tasia-phone > .numbers-container > {
+           
+       }
+      #tasia-phone > .numbers-container > ul > li > strong {
+        background-color:rgb(36, 222, 151);
+          
+          
+      }
+ 
+      }
+      .lisia-phone {
+        background-color: rgb(201, 102, 44);
+      }
+      #summer {
+        background-color: skyblue;
+      }
+      #winter {
+        background-color: rgb(230, 232, 237);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container1">
+      <h1>container1</h1>
+      <div class="dad-phone">
+        Dad Phone 1
+        <div class="numbers-container">
+          <ul>
+            <li><strong>1</strong></li>
+            <li><strong>2</strong></li>
+            <li><strong>3</strong></li>
+            <li><strong>4</strong></li>
+            <li><strong>5</strong></li>
+            <li><strong>6</strong></li>
+            <li><strong>7</strong></li>
+            <li><strong>8</strong></li>
+            <li><strong>9</strong></li>
+            <li><strong>*</strong></li>
+            <li><strong>0</strong></li>
+            <li><strong>#</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="mum-phone">Mum Phone 1</div>
+      <div id="asher-phone">
+            Asher Phone 1
+           <div class="numbers-container">
+          <ul>
+            <li><strong>1</strong></li>
+            <li><strong>2</strong></li>
+            <li><strong>3</strong></li>
+            <li><strong>4</strong></li>
+            <li><strong>5</strong></li>
+            <li><strong>6</strong></li>
+            <li><strong>7</strong></li>
+            <li><strong>8</strong></li>
+            <li><strong>9</strong></li>
+            <li><strong>*</strong></li>
+            <li><strong>0</strong></li>
+            <li><strong>#</strong></li>
+          </ul>
+        </div>
+      </div>
+      <div id="tasia-phone">Tasha Phone 1
+           <div class="numbers-container">
+          <ul>
+            <li><strong>1</strong></li>
+            <li><strong>2</strong></li>
+            <li><strong>3</strong></li>
+            <li><strong>4</strong></li>
+            <li><strong>5</strong></li>
+            <li><strong>6</strong></li>
+            <li><strong>7</strong></li>
+            <li><strong>8</strong></li>
+            <li><strong>9</strong></li>
+            <li><strong>*</strong></li>
+            <li><strong>0</strong></li>
+            <li><strong>#</strong></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="lisia-phone">Lisia Phone 1 <div class="numbers-container">
+          <ul>
+            <li><strong>1</strong></li>
+            <li><strong>2</strong></li>
+            <li><strong>3</strong></li>
+            <li><strong>4</strong></li>
+            <li><strong>5</strong></li>
+            <li><strong>6</strong></li>
+            <li><strong>7</strong></li>
+            <li><strong>8</strong></li>
+            <li><strong>9</strong></li>
+            <li><strong>*</strong></li>
+            <li><strong>0</strong></li>
+            <li><strong>#</strong></li>
+          </ul>
+        </div></div>
+    </div>
+
+    <div class="container2">
+      <h1>container2</h1>
+      <div class="dad-phone">Dad Phone 2</div>
+      <div id="asher-phone">Asher Phone 2</div>
+      <div id="tasia-phone">Tasha Phone 2</div>
+      <div class="lisia-phone">Lisia Phone 2</div>
+      <div id="mum-phone">Mum Phone 2</div>
+    </div>
+
+    <h1>Olaf's favorite seasons</h1>
+    <h2 id="summer">Summer</h2>
+    <p>He's a happy snowman, doing what frozen things do in summer.</p>
+
+    <h2 id="winter">Winter</h2>
+    <p>He likes to stay in and cuddle</p>
+  </body>
+</html>
